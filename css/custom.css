@@ -1,0 +1,151 @@
+/* common required style */
+.text-center {
+	text-align: center !important;
+}
+.no-padding {
+	padding: 0 !important;
+}
+.list-inline > li {
+	display: inline-block;
+}
+.with-border-bottom {
+	border-bottom: 1px dashed #999 !important;
+}
+.text-muted {
+	color: #888 !important;
+}
+/* common required style */
+
+
+
+.main-body {
+	padding-top: 50px !important;
+}
+.profile-title {
+	display: block;
+	padding: 10px 0;
+}
+.profile-photo {
+	display: block;
+}
+.profile-photo img {
+	width: 100%;
+}
+.profile-name {
+	text-transform: uppercase;
+	font-size: 20px;
+	font-weight: 600;
+	margin: 0;
+}
+.profile-designation {
+	margin: 0;
+	font-weight: 300;
+}
+.social-links {
+	display: block;
+	padding: 10px 0;
+	border-top: 1px dashed #999;
+}
+.social-links ul {
+	margin: 0;
+}
+.social-links ul > li {
+	padding: 0 5%;
+}
+.social-links ul > li a {
+	font-size: 20px;
+	color: #333;
+}
+.right-sidebar {
+	padding-left: 30px !important;
+}
+.tab-content {
+	padding-top: 30px !important;
+}
+.tab-content h5 {
+	font-weight: 600;
+}
+.tab-header {
+	font-weight: 300;
+}
+.tab-content-header .row {
+	margin-bottom: 0 !important;
+}
+
+.tab-header::before,
+.tab-header::after {
+	content: " ";
+	display: inline-block;
+	width: 80px;
+	height: 1px;
+	background: #999;
+	margin: 10px 20px;
+}
+.tab-content .section {
+	padding: 20px !important;
+}
+
+.progressbar {
+	position: relative;
+}
+
+.status-icons{
+	font-size: 24px;
+	font-weight: 900;
+}
+.span3 {
+	width: 30%;
+	float: left;
+	margin: 10px;
+}
+.thumbnail img {
+	width: 100%;
+}
+
+.btn-filter {
+	background: transparent;
+	border: 1px solid #666666;
+}
+.btn-filter:hover,
+.btn-filter:active,
+.btn-filter:focus {
+	background: #666666;
+	color: #FFF;
+}
+
+.card-image.hovereffect {
+	float: none;
+	text-align: left;
+}
+.posted-date {
+	position: absolute;
+	top: 0;
+	bottom: auto;
+	right: auto;
+	left: 0;
+	background: #ee6e73;
+	color: #FAFAFA;
+	padding: 0px 15px;
+}
+
+#map {
+  height: 300px !important;
+  margin-top: 20px;
+}
+.contact-title {
+	font-size: 18pt;
+}
+.info-list li {
+	padding: 0 0 10px 0;
+	font-weight: 400;
+}
+.info-list span {
+	color: #666;
+	font-weight: 300;
+}
+.footer .row {
+	padding-top: 20px;
+}
+.footer span {
+	color: #666;
+}
