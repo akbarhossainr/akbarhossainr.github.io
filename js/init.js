@@ -8,7 +8,7 @@ $(document).ready(function(){
 		strokeWidth: 1,
 		easing: 'easeInOut',
 		duration: 1400,
-		color: '#FFEA82',
+		color: '#333',
 		trailColor: '#eee',
 		trailWidth: 1,
 		svgStyle: {width: '100%', height: '100%'},
@@ -26,7 +26,7 @@ $(document).ready(function(){
 		    },
 		    autoStyleContainer: false
 		},
-			from: {color: '#FFEA82'},
+			from: {color: '#333'},
 			to: {color: '#ED6A5A'},
 			step: (state, bar) => {
 			bar.setText(Math.round(bar.value() * 100) + ' %');
@@ -39,7 +39,7 @@ $(document).ready(function(){
 		strokeWidth: 1,
 		easing: 'easeInOut',
 		duration: 1400,
-		color: '#FFEA82',
+		color: '#333',
 		trailColor: '#eee',
 		trailWidth: 1,
 		svgStyle: {width: '100%', height: '100%'},
@@ -57,7 +57,7 @@ $(document).ready(function(){
 		    },
 		    autoStyleContainer: false
 		},
-			from: {color: '#FFEA82'},
+			from: {color: '#333'},
 			to: {color: '#ED6A5A'},
 			step: (state, bar2) => {
 			bar2.setText(Math.round(bar2.value() * 100) + ' %');
@@ -70,7 +70,7 @@ $(document).ready(function(){
 		strokeWidth: 1,
 		easing: 'easeInOut',
 		duration: 1400,
-		color: '#FFEA82',
+		color: '#333',
 		trailColor: '#eee',
 		trailWidth: 1,
 		svgStyle: {width: '100%', height: '100%'},
@@ -88,7 +88,7 @@ $(document).ready(function(){
 		    },
 		    autoStyleContainer: false
 		},
-			from: {color: '#FFEA82'},
+			from: {color: '#333'},
 			to: {color: '#ED6A5A'},
 			step: (state, bar3) => {
 			bar3.setText(Math.round(bar3.value() * 100) + ' %');
@@ -101,7 +101,7 @@ $(document).ready(function(){
 		strokeWidth: 1,
 		easing: 'easeInOut',
 		duration: 1400,
-		color: '#FFEA82',
+		color: '#333',
 		trailColor: '#eee',
 		trailWidth: 1,
 		svgStyle: {width: '100%', height: '100%'},
@@ -119,7 +119,7 @@ $(document).ready(function(){
 		    },
 		    autoStyleContainer: false
 		},
-			from: {color: '#FFEA82'},
+			from: {color: '#333'},
 			to: {color: '#ED6A5A'},
 			step: (state, bar4) => {
 			bar4.setText(Math.round(bar4.value() * 100) + ' %');
@@ -132,7 +132,7 @@ $(document).ready(function(){
 		strokeWidth: 1,
 		easing: 'easeInOut',
 		duration: 1400,
-		color: '#FFEA82',
+		color: '#333',
 		trailColor: '#eee',
 		trailWidth: 1,
 		svgStyle: {width: '100%', height: '100%'},
@@ -150,7 +150,7 @@ $(document).ready(function(){
 		    },
 		    autoStyleContainer: false
 		},
-			from: {color: '#FFEA82'},
+			from: {color: '#333'},
 			to: {color: '#ED6A5A'},
 			step: (state, bar5) => {
 			bar5.setText(Math.round(bar5.value() * 100) + ' %');

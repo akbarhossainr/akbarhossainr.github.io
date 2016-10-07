@@ -43,18 +43,29 @@
 }
 .social-links {
 	display: block;
-	padding: 10px 0;
 	border-top: 1px dashed #999;
 }
 .social-links ul {
 	margin: 0;
 }
 .social-links ul > li {
-	padding: 0 5%;
+	margin: 0;
+	padding-top: 10px;
+	padding-bottom: 10px;
+	min-width: 18.91%;
+	transition: all ease-in-out 0.75s;
+	-webkit-transition: all ease-in-out 0.75s;
+	-moz-transition: all ease-in-out 0.75s;
+	-o-transition: all ease-in-out 0.75s;
+}
+.social-links ul > li:hover {
+	background: #333 !important;
+	color: #FFF !important;
+	cursor: pointer;
 }
 .social-links ul > li a {
 	font-size: 20px;
-	color: #333;
+	color: inherit;
 }
 .right-sidebar {
 	padding-left: 30px !important;
@@ -104,12 +115,12 @@
 
 .btn-filter {
 	background: transparent;
-	border: 1px solid #666666;
+	border: 1px solid #333;
 }
 .btn-filter:hover,
 .btn-filter:active,
 .btn-filter:focus {
-	background: #666666;
+	background: #333;
 	color: #FFF;
 }
 
@@ -123,7 +134,7 @@
 	bottom: auto;
 	right: auto;
 	left: 0;
-	background: #ee6e73;
+	background: #333;
 	color: #FAFAFA;
 	padding: 0px 15px;
 }
@@ -148,4 +159,53 @@
 }
 .footer span {
 	color: #666;
+}
+
+.tabs .tab a {
+	color: #333;
+}
+.tabs .tab a:hover,
+.tabs .tab a:active,
+.tabs .tab a:focus {
+	color: #888;
+}
+.tabs .indicator {
+	background: #333;
+	height: 5px;
+}
+.card .card-action a:not(.btn):not(.btn-large):not(.btn-floating) {
+	color: #333;
+}
+
+.card .card-action a:not(.btn):not(.btn-large):not(.btn-floating):hover {
+	color: #888;
+}
+.input-field .prefix.active {
+  color: #333 !important;
+}
+
+input:not([type]):focus:not([readonly]),
+input[type=text]:focus:not([readonly]),
+input[type=password]:focus:not([readonly]),
+input[type=email]:focus:not([readonly]),
+input[type=url]:focus:not([readonly]),
+input[type=time]:focus:not([readonly]),
+input[type=date]:focus:not([readonly]),
+input[type=datetime]:focus:not([readonly]),
+input[type=datetime-local]:focus:not([readonly]),
+input[type=tel]:focus:not([readonly]),
+input[type=number]:focus:not([readonly]),
+input[type=search]:focus:not([readonly]),
+textarea.materialize-textarea:focus:not([readonly]) {
+  border-bottom: 1px solid #333;
+  box-shadow: 0 1px 0 0 #333;
+}
+.input-field label.active {
+  color: #333 !important;
+}
+.btn-theme {
+	background: #333;
+}
+.btn-theme:hover {
+	background: #666;
 }
