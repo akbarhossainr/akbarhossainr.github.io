@@ -49,10 +49,12 @@
 	margin: 0;
 }
 .social-links ul > li {
+	text-align: center;
 	margin: 0;
+	float: left;
 	padding-top: 10px;
 	padding-bottom: 10px;
-	min-width: 18.91%;
+	min-width: 20%;
 	transition: all ease-in-out 0.75s;
 	-webkit-transition: all ease-in-out 0.75s;
 	-moz-transition: all ease-in-out 0.75s;
