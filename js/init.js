@@ -64,7 +64,7 @@ $(document).ready(function(){
 		}
 	});
 
-	bar2.animate(0.5);  // Number from 0.0 to 1.0
+	bar2.animate(0.6);  // Number from 0.0 to 1.0
 
 	var bar3 = new ProgressBar.Line(progressbar_html, {
 		strokeWidth: 1,
@@ -157,6 +157,6 @@ $(document).ready(function(){
 		}
 	});
 
-	bar5.animate(0.7);  // Number from 0.0 to 1.0
+	bar5.animate(0.78);  // Number from 0.0 to 1.0
 
 });
