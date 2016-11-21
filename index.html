@@ -346,64 +346,17 @@
                         <button class="btn-filter" data-toggle="portfilter" data-target="all">
                           All
                         </button>
-                        <button class="btn-filter" data-toggle="portfilter" data-target="art">
-                          Art
+                        <button class="btn-filter" data-toggle="portfilter" data-target="apps">
+                          Applications
                         </button>
-                        <button class="btn-filter" data-toggle="portfilter" data-target="media">
-                          Media
-                        </button>
-                        <button class="btn-filter" data-toggle="portfilter" data-target="brand">
-                          Brand
+                        <button class="btn-filter" data-toggle="portfilter" data-target="designs">
+                          Designs
                         </button>
                       </div>
                       <div class="clearfix"></div>
                       
-                      <ul class="thumbnails gallery">
-                        <li class="span3 clearfix" data-tag='brand'>
-                          <div class="thumbnail hovereffect">
-                            <img class="img-responsive" src="http://placehold.it/150" alt="">
-                            <div class="overlay">
-                               <h2>Lorem ipsum dolor sit amet.</h2>
-                               <a class="info" href="#">link here</a>
-                            </div>
-                          </div>
-                        </li>
-                        <li class="span3" data-tag='art'>
-                          <div class="thumbnail hovereffect">
-                            <img class="img-responsive" src="http://placehold.it/150" alt="">
-                            <div class="overlay">
-                               <h2>Hover effect 1</h2>
-                               <a class="info" href="#">link here</a>
-                            </div>
-                          </div>
-                        </li>
-                        <li class="span3" data-tag='media'>
-                          <div class="thumbnail hovereffect">
-                            <img class="img-responsive" src="http://placehold.it/150" alt="">
-                            <div class="overlay">
-                               <h2>Hover effect 1</h2>
-                               <a class="info" href="#">link here</a>
-                            </div>
-                          </div>
-                        </li>
-                        <li class="span3" data-tag='brand'>
-                          <div class="thumbnail hovereffect">
-                            <img class="img-responsive" src="http://placehold.it/150" alt="">
-                            <div class="overlay">
-                               <h2>Hover effect 1</h2>
-                               <a class="info" href="#">link here</a>
-                            </div>
-                          </div>
-                        </li>
-                        <li class="span3" data-tag='art'>
-                          <div class="thumbnail hovereffect">
-                            <img class="img-responsive" src="http://placehold.it/150" alt="">
-                            <div class="overlay">
-                               <h2>Hover effect 1</h2>
-                               <a class="info" href="#">link here</a>
-                            </div>
-                          </div>
-                        </li>
+                      <ul class="thumbnails gallery" id="project_thumbs">
+                        <!-- dynamic data will be appear here -->
                       </ul>
                       <div class="push"></div>
                     </div>
@@ -578,6 +531,24 @@
 
       }
       // google map
+
+      $(document).ready(function () {
+        $.getJSON('portfolio.json', function(data) {
+          var projects = data.projects;
+          var li = '';
+          for (var i = 0; i < projects.length; i++) {
+            li += '<li class="span3" data-tag="'+projects[i].data_target+'">'+
+                    '<div class="thumbnail hovereffect">'+
+                      '<img class="img-responsive" src="assets/projects/'+projects[i].project_thumb+'" alt="">'+
+                      '<div class="overlay">'+
+                         '<h2>'+projects[i].project_title+'</h2>'+
+                         '<a class="info" href="javascript:">link here</a>'+
+                  '</div></div></li>';
+          }
+
+          $("#project_thumbs").append(li);
+        });
+      });
     </script>
   </body>
 </html>

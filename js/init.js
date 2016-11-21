@@ -1,4 +1,5 @@
 $(document).ready(function(){
+
 	$('ul.tabs').tabs();
 
 	// progressbar.js@1.0.0 version is used
