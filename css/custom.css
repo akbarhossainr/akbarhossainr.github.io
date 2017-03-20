@@ -150,7 +150,8 @@
   margin-top: 20px;
 }
 .contact-title {
-	font-size: 18pt;
+	font-weight: 600 !important;
+	font-size: 1.64rem !important;
 }
 .info-list li {
 	padding: 0 0 10px 0;

@@ -4,14 +4,31 @@
 			"data_target": "apps",
 			"project_title": "HAK&KAK",
 			"project_thumb": "project-1.png"
-		}, {
+		},
+		{
 			"data_target": "designs",
 			"project_title": "XShopBD",
 			"project_thumb": "project-2.png"
-		}, {
+		},
+		{
 			"data_target": "apps",
 			"project_title": "School Management System",
 			"project_thumb": "project-3.png"
+		},
+		{
+			"data_target": "apps",
+			"project_title": "ApiDocGen",
+			"project_thumb": "product-1.png"
+		},
+		{
+			"data_target": "apps",
+			"project_title": "Students & Library Management System",
+			"project_thumb": "product-3.png"
+		},
+		{
+			"data_target": "apps",
+			"project_title": "Official website of SWDC",
+			"project_thumb": "product-2.png"
 		}
 	]
 }

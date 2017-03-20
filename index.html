@@ -69,9 +69,10 @@
                       <article>
                         <p>I'm a professional web developer and mostly working with <b>PHP</b>.
                         As a php artisan I love to work with <b>PHP Laravel framework</b> and also have 2 years experience with <b>Codeigniter framework</b>.
-                        Alongside now I am studying <b>NodeJS</b>, <b>Electron</b>, and little bit with <b>Python</b>.
+                        Alongside now I'm studying <b>NodeJS</b>, <b>Electron</b>, and little bit with <b>Python</b>.
                         </p>
-                        <p>I started my journey with programming world since 2012.</p>
+                        <p>Working with a potential team is like a bless to me. I'm always hungry to learn more and working with creative ideas.</p>
+                        <p>I spent most of the time with coding. In my leisure I try to give some time to my family and friends. I wish to start writing from this year and more contribution for open source projects. I want to learn deeply as much as possible from seniors and also share my knowledge with others.</p>
                       </article>
                     </div>
                   </div>
@@ -83,15 +84,18 @@
                     </div>
                     <div class="col s4">
                       <p><strong>Full Name</strong><br>Akbar Hossain Robin</p>
+                      <p><strong>Blood Group</strong><br>A (+ve)</p>
                       <p><strong>Website</strong><br>akbarhossainr.github.io</p>
                     </div>
                     <div class="col s4">
-                      <p><strong>Location</strong><br>Keranigonj, Dhaka</p>
+                      <p><strong>Date of Birth</strong><br>March 15, 1993</p>
+                      <p><strong>Marital Status</strong><br>Unmarried</p>
                       <p><strong>Email</strong><br>akbarhossain15@gmail.com</p>
                     </div>
                     <div class="col s4">
-                      <p><strong>Date of Birth</strong><br>March 15, 1993</p>
-                      <p><strong>Phone</strong><br>+880 1925197090</p>
+                      <p><strong>Location</strong><br>Keranigonj, Dhaka</p>
+                      <p><strong>Religion</strong><br>Islam</p>
+                      <p><strong>Phone</strong><br>+880 19251 97090</p>
                     </div>
                   </div>
                 </div>
@@ -203,7 +207,7 @@
                                 </div>
                               </div>
                               <div class="qa-message-content">
-                                Recently I started my career journey with UseHub which is a leading UX consulting and training house. I am working as a <strong>Laravel Developer</strong> with several projects and ideas.
+                                Working as a backend php developer. Mostly work with Laravel framework for some existing project and also work with REST API, jQuery, AJAX, MySQL etc.
                               </div>
                             </div>
                           </div>
@@ -223,7 +227,7 @@
                                 </div>
                               </div>
                               <div class="qa-message-content">
-                                Worked as PHP developer with <strong>Codeigniter</strong> framework and done several projects as Dental college student management system (Saphena women's dental college), Medical college library and students attendance system (Anwer khan modern medical college), Online Monitoring System (Practical Action) etc.
+                                Worked as PHP developer with Codeigniter framework and done several projects as Dental college student management system (Saphena women's dental college), Medical college library and students attendance system (Anwer khan modern medical college), Online Monitoring System (Practical Action) etc.
                               </div>
                             </div>
                           </div>
@@ -464,11 +468,11 @@
                         <a class="waves-effect waves-light btn pull-right btn-theme">SEND</a>
                       </div>
                     </div> -->
-                    <div class="col s6">
-                      <h4 class="contact-title"><i class="fa fa-home">&nbsp;&nbsp;</i>Contact Address</h4>
+                    <div class="col s12">
+                      <h5>Connect With Me</h5>
                       <article>
                         <ul class="info-list">
-                             <li><i class="fa fa-address-card" aria-hidden="true"></i>  <span>#32, Chunkutia Road, South Keraniganj, Dhaka-1310</span> </li>
+                             <li><i class="fa fa-home"></i>  <span>Chunkutia Road, South Keraniganj, Dhaka-1310</span> </li>
                              <li><i class="fa fa-phone"></i>  <span>+880 1925 197090</span> </li>
                              <li><i class="fa fa-globe"></i>  <span>akbarhossainr.github.io</span> </li>
                              <li><i class="fa fa-envelope"></i>  <span>akbarhossain15@gmail.com</span> </li>
@@ -557,6 +561,7 @@
         $.getJSON('portfolio.json', function(data) {
           var projects = data.projects;
           var li = '';
+          console.log(projects.length);
           for (var i = 0; i < projects.length; i++) {
             li += '<li class="span3" data-tag="'+projects[i].data_target+'">'+
                     '<div class="thumbnail hovereffect">'+
