@@ -362,7 +362,7 @@
                       </div>
                       <div class="clearfix"></div>
                       
-                      <ul class="thumbnails gallery masonry" id="project_thumbs">
+                      <ul class="thumbnails gallery" id="project_thumbs" data-masonry='{ "itemSelector": ".grid-item", "columnWidth": 200 }'>
                         <!-- dynamic data will be appear here -->
                       </ul>
                       <div class="push"></div>
@@ -565,7 +565,7 @@
           var li = '';
           console.log(projects.length);
           for (var i = 0; i < projects.length; i++) {
-            li += '<li class="span3 masonry-item" data-tag="'+projects[i].data_target+'">'+
+            li += '<li class="span3 grid-item" data-tag="'+projects[i].data_target+'">'+
                     '<div class="thumbnail hovereffect">'+
                       '<img class="img-responsive" src="assets/projects/'+projects[i].project_thumb+'" alt="">'+
                       '<div class="overlay">'+
@@ -576,13 +576,6 @@
 
           $("#project_thumbs").append(li);
         });
-      });
-
-      /*init masnory script*/
-      $('.masonry').masonry({
-        // options
-        itemSelector: '.masonry-item',
-        columnWidth: 200
       });
     </script>
   </body>
