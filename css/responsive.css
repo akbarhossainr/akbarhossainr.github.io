@@ -1,0 +1,42 @@
+/* Extra small devices (phones, less than 768px) */
+/* No media query since this is the default in Bootstrap */
+@media (max-width: 600px) {
+	.right-sidebar {
+		padding: 0 !important;
+		margin-top: 25px;
+	}
+	.top-navbar {
+		padding: 0 !important;
+	}
+	.tab-content {
+		padding-left: 0 !important;
+		padding-right: 0 !important;
+	}
+	.tab a {
+		font-size: 12px;
+	}
+	.tabs .tab {
+		letter-spacing: 0 !important;
+	    min-width: auto !important;
+	}
+	.tab-header {
+		font-size: 18px !important;
+	}
+	.tab-header::before,
+	.tab-header::after {
+	    width: 20px !important;
+	    margin: 5px 20px !important;
+	}
+	.col {
+		overflow-wrap: break-word !important;
+	}
+}
+
+/* Small devices (tablets, 768px and up) */
+@media (min-width: @screen-sm-min) { ... }
+
+/* Medium devices (desktops, 992px and up) */
+@media (min-width: @screen-md-min) { ... }
+
+/* Large devices (large desktops, 1200px and up) */
+@media (min-width: @screen-lg-min) { ... }
