@@ -40,7 +40,6 @@ top: 6px;
 width: 0;
 }
 .message-item:before {
-background: #fff;
 border-radius: 2px;
 bottom: -30px;
 /*box-shadow: 0 0 3px rgba(0,0,0,0.2);*/
@@ -50,6 +49,13 @@ left: -29px;
 position: absolute;
 width: 1px;
 background: #999;
+}
+
+.message-item:last-child {
+	margin-bottom: 0;
+}
+.message-item .message-head:last-child {
+	margin-bottom: 0;
 }
 .message-item:after {
 background: #333;

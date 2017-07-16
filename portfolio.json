@@ -2,33 +2,45 @@
 	"projects": [
 		{
 			"data_target": "apps",
-			"project_title": "HAK&KAK",
-			"project_thumb": "project-1.png"
+			"project_title": "ApiDocGen",
+			"project_thumb": "preview-1.png",
+			"project_link": "http://www.apidocgen.com"
 		},
 		{
 			"data_target": "designs",
-			"project_title": "XShopBD",
-			"project_thumb": "project-2.png"
+			"project_title": "HAK&KAK",
+			"project_thumb": "preview-7.png",
+			"project_link": "#"
 		},
 		{
 			"data_target": "apps",
-			"project_title": "School Management System",
-			"project_thumb": "project-3.png"
+			"project_title": "AKMMC Library Management System",
+			"project_thumb": "preview-2.png",
+			"project_link": "#"
 		},
 		{
 			"data_target": "apps",
-			"project_title": "ApiDocGen",
-			"project_thumb": "project-1.png"
+			"project_title": "AKMMC Students Management System",
+			"project_thumb": "preview-3.png",
+			"project_link": "#"
 		},
 		{
 			"data_target": "apps",
-			"project_title": "Students & Library Management System",
-			"project_thumb": "project-3.png"
+			"project_title": "SWDC Website with Laravel CMS",
+			"project_thumb": "preview-4.png",
+			"project_link": "#"
 		},
 		{
 			"data_target": "apps",
-			"project_title": "Official website of SWDC",
-			"project_thumb": "project-2.png"
+			"project_title": "Course & Event Management App for Userhub",
+			"project_thumb": "preview-6.png",
+			"project_link": "#"
+		},
+		{
+			"data_target": "apps",
+			"project_title": "Education Management System for SWDC",
+			"project_thumb": "preview-5.png",
+			"project_link": "#"
 		}
 	]
 }
